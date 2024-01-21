@@ -1,0 +1,19 @@
+.ReflectionBox {
+  position: absolute;
+  left: 220px;
+  top: 336px;
+}
+
+.ReflectionBox img {
+  padding: 0 10px;
+}
+
+.text_data {
+  position: absolute;
+  left: 101px;
+  top: 166px;
+  width: 807px;
+  height: 143px;
+  overflow : hidden;
+  border : solid 1px #c58f54;
+}

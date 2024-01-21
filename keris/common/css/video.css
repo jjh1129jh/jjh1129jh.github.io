@@ -1,0 +1,234 @@
+#mediaObj {
+    background: url(.././common/css/img/video/videoBg.png);
+}
+
+#videoCon video{
+    width: 100%;
+    height: 100%;
+}
+#videoCon {
+    position: absolute;
+    display: inline-block;
+    width: 780px;
+    height: 440px;
+    top: 80px;
+    left: 115px;
+    border: 5px solid #161818;
+}
+#mediaObj #darkGudie {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 1280px;
+    height: 720px;
+    left: 0;
+    top: 0;
+}
+.videoDesign {
+    display: none;
+    position: absolute;
+    width: 780px;
+    height: 440px;
+    top: 80px;
+    left: 105px;
+    border: 15px solid #161818;
+    border-bottom:  5px solid #161818; 
+}
+.videoControl {
+    position: absolute;
+    width: 780px;
+    left: 105px;
+    bottom: -64px;
+    height: 54px;
+    left: 50%;
+    border: 5px solid #161818;
+    transform: translateX(-50%);
+    background-color: #0c0c0c;
+}
+.videoControl .videoBtn {
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 54px;
+} 
+
+.videoControl .vPlay_btn {
+    background: url(.././common/css/img/video/play.png);
+    left: 0px;
+    top: 0px;
+} 
+.videoControl .vStop_btn {
+    background: url(.././common/css/img/video/stop.png);
+    left: 0px;
+    top: 0px;
+} 
+.videoControl .vReplay_btn {
+    background: url(.././common/css/img/video/replay.png);
+    left: 55px;
+    top: 0px;
+} 
+.videoControl .vSound_btn {
+    background: url(.././common/css/img/video/sound0001.png);
+    left: 110px;
+    top: 0px;
+} 
+.videoControl .vMp3_btn {
+    background: url(.././common/css/img/video/mp3.png);
+    left: 620px;
+    top: 0px;
+} 
+.videoControl .vDown_btn {
+    background: url(.././common/css/img/video/down.png);
+    left:675px;
+    top: 0px;
+}
+.videoControl .vfull_btn {
+    background: url(.././common/css/img/video/fullscreen0001.png);
+    left:730px;
+    top: 0px;
+} 
+.videoControl .vfullClose_btn {
+    background: url(.././common/css/img/video/fullscreen0002.png);
+    left:730px;
+    top: 0px;
+} 
+
+.timeWarpBox {
+    
+    width: 780px;
+    height: 480px;
+    position: absolute;
+    top: 95px;
+    left: 120px;
+    overflow: hidden;
+}
+.timeWarpBox > div {
+    position: absolute;
+    height: 440px;
+    width: 320px;
+    left: 780px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.timeWarpBox .active::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #e6ea2d;
+    position: absolute;
+    left: 2px;
+    top: 18px;
+}
+.timeWarpBox .timeWarp::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    position: absolute;
+    left: 2px;
+    top: 20px;
+}
+.timeWarpBox .active {
+    color: #e6ea2d !important;
+}
+.timeWarpBox .timeWarp {
+    font-size: 17px;
+    position: relative;
+    line-height: 26px;
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin: 0 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(128, 121, 121, 0.4);
+
+}
+
+.timeWarpBox .timeBtn {
+    position: absolute;
+    width: 30px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    left: -30px;
+    top: 170px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 25px 0;
+}
+
+.slide_video{	display:inline-block;	 width:1280;height:7px;	position:absolute;left:190px;top:20px;}
+.slide_video .slide_inner_video{	height:5px;z-index:15;position:relative;margin:auto;} 
+
+.slide_video .slide_bg_video{width:400px;	height:30px;left:0;	background:rgba(225,225,225,0.3);	position:absolute;top:0px;margin-right:0;background:url("./img/video/slide_d.png") 50% 50% no-repeat; cursor: pointer;}
+.slide_video .slide_current_video{	width:0px;	height:30px;	background:#33CCFF;	position:absolute;	left:0;top:0;	z-index:11;background:url("./img/video/slide_u.png") 0 50% no-repeat}
+.slide_video .slide_current_video:after{content: "";
+display: block;
+clear: both;
+width: 60px;
+height: 30px;
+background: url(./img/video/slide_heart.png) no-repeat;
+position: absolute;
+right: -30px;
+    top: -0px;
+}
+
+.time{width:85px;display:inline-block;height:5px;position:absolute;left:500px;top:-7px}
+.time ul{width:130px;	height:44px;}
+.time ul li{	line-height:44px;	color:#fff;	font-size:14px;float:left;}
+
+
+.soundBox {
+    
+    display: none;
+    position: absolute;
+    width: 40px;
+    top: -105px;
+    height: 100px;
+    left: 115px;
+    background-color: #333333;
+}
+
+.soundBox .soundMinus {
+    cursor: pointer;
+    line-height: 40px;
+    background-color: #999999;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    top: 65px;
+    display: inline-block;
+}
+.soundBox .soundText {
+    width: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+    line-height: 20px;
+}
+.soundBox .soundPlus {
+    cursor: pointer;
+    line-height: 34px;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #999999;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    display: inline-block;
+}
