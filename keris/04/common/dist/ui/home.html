@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="../common/common.css"/>
+  <style>
+    menu li {
+      margin-top: 25px;
+    }
+    dl {
+      font-size: 11px;
+      line-height: 1.5;
+    }
+    li button {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+<div id="container">
+  <section>
+    <h1>다문화학생 LMS AI Reference UI</h1>
+    <div>
+      <menu>
+        <li>
+          <button onclick="location.href='./speak/speech-test/view.html'">마이크 테스트</button>
+          <dl>
+            <dd>사용자 device 에 설치된 마이크를 통해 입력된 오디오가 발음평가 AI로 전달되고 회신되는지, AI 엔진과의 연결상태를 확인하는 기능입니다.<br/>
+              예시 문장은 사용자 발화를 돕기위한 문장으로 제시되지 않아도 무관합니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./speak/read-aloud/view.html'">말하기: 읽기 연습</button>
+          <dl>
+            <dd>제시된 문장을 읽고 말하기를 합니다.<br/>
+              제시된 문장과 다르게 말하면 정상적인 처리를 방해할 수 있습니다.<br/>
+              발성 평가 결과 중, 총점과 세부 5항목 결과를 예시로 제공합니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./speak/repeat-aloud/view.html'">말하기: 따라 말하기 연습</button>
+          <dl>
+            <dd>제시된 음성을 듣고 따라 말하기를 합니다.<br/>
+              제시된 음성과 다르게 말하면 정상적인 처리를 방해할 수 있습니다.<br/>
+              메뉴 선택시  따라 말할 문장을 TTS AI 엔진을 통해 음성으로 실시간 변환합니다.<br/>
+              화면에서 스피커 버튼을 누르고 음성 재생이 되지 않을 경우 잠시 후 다시 시도해주세요.<br/>
+              발성 평가 결과 중, 원어민 억양과 화자의 억양 비교, 세부 5항목 결과를 예시로 제공합니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./write/jamo/view.html'">쓰기: 따라 쓰기(획순 연습:자모)</button>
+          <dl>
+            <dd>한글 자모의 획순을 연습하는 기능으로 화면에서는 ‘ㄷ’과 ‘ㄹ’ 을 예시로 제공합니다.<br/>
+              바른 글씨 연습을 위해 회색 글씨를 제공하고, 회색 글씨를 벗어나거나 획순이 맞지 않은 경우 바른 쓰기 유도를 위한 안내창이 제공됩니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./write/character/view.html'">쓰기: 따라 쓰기(획순 연습:음절)</button>
+          <dl>
+            <dd>한글 음절을 구성하는 초, 중, 종성의 구성을 연습하는 기능입니다.<br/>
+              자모 연습메뉴에서 학습한 자/모의 종류와 획순에 따라 음절 쓰기 순서와 바른 글씨를 연습합니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./write/word/view.html'">쓰기: 따라 쓰기(필체 연습)</button>
+          <dl>
+            <dd>제시된 어휘를 습득하고 바른 글쓰기 필체를 연습합니다.<br/>
+              예시와 같이, 회색 음영 글씨를 따라쓰는 연습과 공란에 쓰기 연습을 통해 제시된 글씨 모양에 얼마나 맞게 썼는지 점수로 제공할 수도 있습니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./write/dictation/view.html'">쓰기: 받아쓰기</button>
+          <dl>
+            <dd>제시된 음성을 듣고 쓰는 받아쓰기 연습입니다.<br/>
+              메뉴 선택시 정답문의 음성을 자동 생성하므로 스피커 버튼을 통한 재생이 되지 않을 경우 잠시 기다린 뒤 시도해 주세요.<br/>
+              예시 어휘는 ‘파란 하늘’로 제시된 정답문에 따라 원고지 칸이 생성됩니다.<br/>
+              필기 결과는 OCR로 인식한 text를 반환합니다.<br/>
+              제공된 화면은 반환된 Text를 통해 필기 유창성 점수와 점수에 따른 평가 문구 출력으로 활용한 예시 화면입니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./write/ocr/view.html'">OCR 테스트</button>
+          <dl>
+            <dd>원고지에 쓴 글씨를 얼마나 잘 인식하는지 테스트 해보는 기능입니다.<br/>
+              원고지 글씨 쓰기와 OCR 결과 text를 출력합니다.</dd>
+          </dl>
+        </li>
+        <li>
+          <button onclick="location.href='./speak/stt/view.html'">STT 테스트</button>
+          <dl>
+            <dd>발음인식 결과를 테스트하는 기능입니다.<br/>
+              오디오를 통해 발화 내용을 인식한 Text를 출력하고 해당 발화 오디오의 발음을 평가합니다.</dd>
+          </dl>
+        </li>
+      </menu>
+    </div>
+  </section>
+</div>
+</body>
+</html>

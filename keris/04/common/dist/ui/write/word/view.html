@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>쓰기: 따라 쓰기(필체 연습)</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script type="module" src="service.js"></script>
+</head>
+<body>
+<div id="container">
+  <section>
+    <div class="button-wrapper flex-end">
+      <button class="cylinder-button" onclick="location.href='../../home.html'">홈으로</button>
+      <button id="close-window" class="cylinder-button">닫기</button>
+    </div>
+    <div class="flex-center flex-direction-column">
+      <h2 class="narration">아래의 글자를 따라 쓰세요.</h2>
+      <div id="example-image-wrapper" class="flex-center"></div>
+    </div>
+    <div id="answer-wrapper" class="flex-center flex-direction-column"></div>
+    <div id="score-wrapper" class="disp-none flex-end">
+      <span id="score"></span><span>점</span>
+    </div>
+    <div class="button-wrapper flex-end">
+      <button id="done" class="cylinder-button">결과 보기</button>
+      <button id="retry" class="cylinder-button disp-none">다시하기</button>
+    </div>
+  </section>
+</div>
+</body>
+</html>
