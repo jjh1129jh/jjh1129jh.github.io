@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>정지환의 포트폴리오입니다.</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" href="font/GmarketSansTTFLight.ttf">
+    <link rel="stylesheet" href="font/GmarketSansTTFMedium.ttf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/examples.css" />
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+</head>
+<body>
+<div>
+    <ul id="menu">
+        <li data-menuanchor="1Page" class="active"><a href="#1Page">HOME</a></li>
+        <li data-menuanchor="2Page"><a href="#2Page">WORKS</a></li>
+        <li data-menuanchor="3Page"><a href="#3Page">CAREER</a></li>
+        <li data-menuanchor="4Page"><a href="#4Page">ABOUT</a></li>
+    </ul>
+</div>
+
+<div id="fullpage">
+    <div class="section" id="section0">
+        <div id="background0">
+            <div class="intro">
+                <h1>안녕하세요.<br><strong>적응하는</strong> <span>웹 퍼블리셔</span><br><strong>정지환</strong> 입니다.</h1>
+              </div>
+        </div>
+    </div>
+    <div class="section" id="section1">
+        <div class="slide active" id="slide1">
+            <div class="backgroundBox1 backgroundBox">
+                <a class="home" href=""><img src="./images/home.png" alt="홈페이지 연결"></a>
+                <div class="backarea1 backarea">
+                    <div class="explanation1">
+                    <div class="title">
+                        <h2>1</h2>
+                        <div>
+                            <p>Kentucky Fried Chicken</p>
+                            <h3>KFC</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, SCSS, JavaScript, jQuery</span>
+                        </div>
+                        <div class="Contribution">
+                            <div class="circle"><p>기여도</p></div>
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                기존 KFC 홈페이지에서
+                                주요 메뉴 위주의<br>풀페이지 구성으로 심플하게 구성하여<br>누구나 <span>접근하기 쉽게</span> 구성해보았습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <ul class="maincolor clearFix">
+                            <li class="c1"><span>#ea0a2a</span></li>
+                            <li class="c2"><span>#9a1e29</span></li>
+                            <li class="c3"><span>#ff7800</span></li>
+                        </ul>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>구성</p></div>
+                            <span>메인페이지</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>기능</p></div>
+                            <span>풀페이지, 웹 크로스 브라우징</span>
+                        </div>
+                        <div class="con3">
+                            <ul class="web">
+                                <li><img src="images/Chrome.png" alt=""></li>
+                                <li><img src="images/Explorer.png" alt=""></li>
+                                <li><img class="firefox" src="images/Firefox.png" alt=""></li>
+                                <li><img src="images/Whale.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                    <div class="clickevent">
+                        <h3>Click!</h3>
+                        <img src="images/bottomarrow.png" alt="">
+                    </div>
+                    <div class="media">
+                        <div class="PC">
+                            <img src="images/PcBlack.png" alt="">
+                            <div class="Pscreen">
+                                <div class="Pscreensc">
+                                    <img src="images/KFC/KFCfull.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="IPAD">
+                            <img src="images/Ipad.png" alt="">
+                            <div class="Iscreen">
+                                <div class="Iscreensc">
+                                    <img src="images/KFC/ipad.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="MOBILE">
+                            <img src="images/Mobile.png" alt="">
+                            <div class="Mscreen">
+                                <div class="Mscreensc">
+                                    <img src="images/KFC/mobile.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="backgroundBox2 backgroundBox">
+                <a class="home" href=""><img src="./images/home.png" alt="홈페이지 연결"></a>
+                <div class="backarea2 backarea">
+                    <div class="explanation2">
+                    <div class="title">
+                        <h2>2</h2>
+                        <div>
+                            <p>YILAN Tourism Office</p>
+                            <h3>이란 관광청</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, SCSS, JavaScript, jQuery</span>
+                        </div>
+                        <div class="Contribution">
+                            <div class="circle"><p>기여도</p></div>
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                <span>자작 홈페이지입니다.</span> 코로나 시국이 끝나면<br>
+                                대만에 있는 이란이라는 도시에 놀러가자는<br>친구의 말에
+                                흥미를 갖게되어 제작해보았습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <ul class="maincolor clearFix">
+                            <li class="c1"><span>#fcfcfc</span></li>
+                            <li class="c2"><span>#d19d65</span></li>
+                        </ul>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>구성</p></div>
+                            <span>메인페이지, 서브페이지(MENU)</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>기능</p></div>
+                            <span>웹 크로스 브라우징</span>
+                        </div>
+                        <div class="con3">
+                            <ul class="web">
+                                <li><img src="images/Chrome.png" alt=""></li>
+                                <li><img src="images/Explorer.png" alt=""></li>
+                                <li><img class="firefox" src="images/Firefox.png" alt=""></li>
+                                <li><img src="images/Whale.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                    <div class="clickevent">
+                        <h3>Click!</h3>
+                        <img src="images/bottomarrow.png" alt="">
+                    </div>
+                    <div class="media">
+                        <div class="PC">
+                            <img src="images/PcBlack.png" alt="">
+                            <div class="Pscreen">
+                                <div class="Pscreensc">
+                                    <img src="images/YILAN/pc.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="IPAD">
+                            <img src="images/Ipad.png" alt="">
+                            <div class="Iscreen">
+                                <div class="Iscreensc">
+                                    <img src="images/YILAN/IPAD.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="MOBILE">
+                            <img src="images/Mobile.png" alt="">
+                            <div class="Mscreen">
+                                <div class="Mscreensc">
+                                    <img src="images/YILAN/mobile.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <div class="backgroundBox3 backgroundBox">
+                <a class="home" href=""><img src="./images/home.png" alt="홈페이지 연결"></a>
+                <div class="backarea3 backarea">
+                    <div class="explanation3">
+                    <div class="title">
+                        <h2>3</h2>
+                        <div>
+                            <p>Nikon Imaging Korea</p>
+                            <h3>NIKON</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, CSS, JavaScript, jQuery</span>
+                        </div>
+                        <div class="Contribution">
+                            <div class="circle"><p>기여도</p></div>
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                니콘 홈페이지를 경쟁업체인 라이카의<br>
+                                스타일로 재구성 하였습니다.<br>
+                                대표색인 <span>노란색</span>로 포인트를 주었습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <ul class="maincolor clearFix">
+                            <li class="c1"><span>#ffe600</span></li>
+                            <li class="c2"><span>#000000</span></li>
+                            <li class="c3"><span>#f3f3f3</span></li>
+                        </ul>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>구성</p></div>
+                            <span>메인페이지, 서브페이지(LOGIN)</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>기능</p></div>
+                            <span>웹 크로스 브라우징</span>
+                        </div>
+                        <div class="con3">
+                            <ul class="web">
+                                <li><img src="images/Chrome.png" alt=""></li>
+                                <li><img src="images/Explorer.png" alt=""></li>
+                                <li><img class="firefox" src="images/Firefox.png" alt=""></li>
+                                <li><img src="images/Whale.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                    <div class="clickevent">
+                        <h3>Click!</h3>
+                        <img src="images/bottomarrow.png" alt="">
+                    </div>
+                    <div class="media">
+                        <div class="PC">
+                            <img src="images/PcBlack.png" alt="">
+                            <div class="Pscreen">
+                                <div class="Pscreensc">
+                                    <img src="images/NIKON/Pc.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="MOBILE">
+                            <img src="images/Mobile.png" alt="">
+                            <div class="Mscreen">
+                                <div class="Mscreensc">
+                                    <img src="images/NIKON/Mobile.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide4">
+            <div class="backgroundBox4 backgroundBox">
+                <a class="home" href=""><img src="./images/home.png" alt="홈페이지 연결"></a>
+                <div class="backarea4 backarea">
+                    <div class="explanation4">
+                    <div class="title">
+                        <h2>4</h2>
+                        <div>
+                            <p>Dong Bang</p>
+                            <h3>동방</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, SCSS, JavaScript, jQuery</span>
+                        </div>
+                        <div class="Contribution">
+                            <div class="circle"><p>기여도</p></div>
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                            기존 홈페이지는 제작한지 오래되어 고전적<br>
+                            스타일로 구성되어 있습니다. 동종 업종의<br>
+                            홈페이지를 참고하여 <span>리뉴얼</span> 하였습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <ul class="maincolor clearFix">
+                            <li class="c1"><span>#1b3052</span></li>
+                            <li class="c2"><span>#303030</span></li>
+                        </ul>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>구성</p></div>
+                            <span>메인페이지</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>기능</p></div>
+                            <span>풀페이지, 웹 크로스 브라우징</span>
+                        </div>
+                        <div class="con3">
+                            <ul class="web">
+                                <li><img src="images/Chrome.png" alt=""></li>
+                                <li><img src="images/Explorer.png" alt=""></li>
+                                <li><img class="firefox" src="images/Firefox.png" alt=""></li>
+                                <li><img src="images/Whale.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                    <div class="clickevent">
+                        <h3>Click!</h3>
+                        <img src="images/bottomarrow.png" alt="">
+                    </div>
+                    <div class="media">
+                        <div class="PC">
+                            <img src="images/PcBlack.png" alt="">
+                            <div class="Pscreen">
+                                <div class="Pscreensc">
+                                    <img src="images/DONGBANG/Pc.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide5">
+            <div class="backgroundBox5 backgroundBox">
+                <a class="home" href=""><img src="./images/home.png" alt="홈페이지 연결"></a>
+                <div class="backarea5 backarea">
+                    <div class="explanation5">
+                    <div class="title">
+                        <h2>5</h2>
+                        <div>
+                            <p>PORTFOLIO</p>
+                            <h3>포트폴리오</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, SCSS, JavaScript, jQuery</span>
+                        </div>
+                        <div class="Contribution">
+                            <div class="circle"><p>기여도</p></div>
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                정지환의 포트폴리오 홈페이지 입니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="color">
+                        <ul class="maincolor clearFix">
+                            <li class="c1"><span>#1b3052</span></li>
+                            <li class="c2"><span>#303030</span></li>
+                        </ul>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>구성</p></div>
+                            <span>메인페이지</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>기능</p></div>
+                            <span>풀페이지, 웹 크로스 브라우징</span>
+                        </div>
+                        <div class="con3">
+                            <ul class="web">
+                                <li><img src="images/Chrome.png" alt=""></li>
+                                <li><img src="images/Explorer.png" alt=""></li>
+                                <li><img class="firefox" src="images/Firefox.png" alt=""></li>
+                                <li><img src="images/Whale.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                    <div class="clickevent">
+                        <h3>Click!</h3>
+                        <img src="images/bottomarrow.png" alt="">
+                    </div>
+                    <div class="media">
+                        <div class="PC">
+                            <img src="images/PcBlack.png" alt="">
+                            <div class="Pscreen">
+                                <div class="Pscreensc">
+                                    <img src="images/PORTFOLIO/Pc.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="slide active" id="slide1">
+            <div class="backgroundBox1 backgroundBox">
+                <div class="backarea1 backarea">
+                    <div class="explanation1">
+                    <div class="title">
+                        <div>
+                            <p>PROJECT</p>
+                            <h3>한국교육학술정보원 KERIS 개발</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, CSS, JavaScript, jQuery</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                개발도상국 국가들에 무료로 제공하는<br>
+                                초등, 중등 한국어 교육 과정입니다.<br>
+                                총 5개국어 자막과 음성안내가 지원됩니다.<br>
+                                AI업체와 협업한 음성인식, 필기인식 기능이 대표적이며<br>
+                                그 외에도 퀴즈, 타이핑, 드래그드롭 등을 구현했습니다.<br>
+                                방대한 교육과정으로 인해 HTML소스에는 공통코드만 넣어주고<br>
+                                JS로 실행과 동시에 각각의 콘텐츠가 추가되게 하였습니다. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>기여도</p></div>
+                            <span>★ ★ ★ ★ ★</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>참여인원</p></div>
+                            <span>18명 +</span>
+                        </div>
+                        <div class="con3 clearFix">
+                            <div><p>담당업무</p></div>
+                            <span>프로토타입 개발 및 양산</span>
+                        </div>
+                        <div class="con4 clearFix">
+                            <div><p>진행기간</p></div>
+                            <span>8개월 + a</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                        <div class="hyperlink clearFix">
+                            <a href=""><p>HOME1</p></a>
+                            <a href=""><p>HOME2</p></a>
+                            <a href=""><p>HOME3</p></a>
+                            <a href=""><p>HOME4</p></a>
+                        </div>
+                    <div class="Capture">
+                        <div class="CaptureImg">
+                            <img src="images/Capture1.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide2">
+            <div class="backgroundBox1 backgroundBox">
+                <div class="backarea1 backarea">
+                    <div class="explanation1">
+                    <div class="title">
+                        <div>
+                            <p>PROJECT</p>
+                            <h3>국립외교원</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, CSS, JavaScript, jQuery</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                영상 기반 교육컨텐츠입니다.<br>
+                                자사에서 운영하던 기존 e러닝 영상플레이어에<br>
+                                부가기능 (자막, 전체화면, 배속, 다운로드)<br>
+                                기능을 더하면서 레이아웃을 수정하였고<br>
+                                720p 고정 사이즈 플레이어를 여러 환경에서의<br>
+                                원할한 수강을 위해 반응형으로 수정하였습니다.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>기여도</p></div>
+                            <span>★ ★ ★ ★ ★</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>참여인원</p></div>
+                            <span>4명 +</span>
+                        </div>
+                        <div class="con3 clearFix">
+                            <div><p>담당업무</p></div>
+                            <span>프로토타입 개발 및 양산</span>
+                        </div>
+                        <div class="con4 clearFix">
+                            <div><p>진행기간</p></div>
+                            <span>3개월</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                        <div class="hyperlink clearFix">
+                            <a href=""><p>NONE</p></a>
+                        </div>
+                    <div class="Capture">
+                        <div class="CaptureImg">
+                            <img src="images/Capture2.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide3">
+            <div class="backgroundBox1 backgroundBox">
+                <div class="backarea1 backarea">
+                    <div class="explanation1">
+                    <div class="title">
+                        <div>
+                            <p>PROJECT</p>
+                            <h3>삼육보건대학교</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, CSS, JavaScript, jQuery</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                2019년부터 진행된 서비스를<br>
+                                인수인계 받아 유지보수를 진행하였고<br>
+                                2023년엔 과목 개설을 위한 개발을<br>
+                                진행하기도 했습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>기여도</p></div>
+                            <span>★ ★ ★ ☆ ☆</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>참여인원</p></div>
+                            <span>3명</span>
+                        </div>
+                        <div class="con3 clearFix">
+                            <div><p>담당업무</p></div>
+                            <span>유지보수 및 양산</span>
+                        </div>
+                        <div class="con4 clearFix">
+                            <div><p>진행기간</p></div>
+                            <span>1개월</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                        <div class="hyperlink clearFix">
+                            <a href=""><p>NONE</p></a>
+                        </div>
+                    <div class="Capture">
+                        <div class="CaptureImg">
+                            <img src="images/Capture3.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide" id="slide4">
+            <div class="backgroundBox1 backgroundBox">
+                <div class="backarea1 backarea">
+                    <div class="explanation1">
+                    <div class="title">
+                        <div>
+                            <p>PROJECT</p>
+                            <h3>경상대학교 전자책</h3>
+                        </div>
+                    </div>
+                    <div class="information clearFix">
+                        <div class="program">
+                            <div class="circle"><p>주요</p></div>
+                            <span>HTML, CSS, jQuery</span>
+                        </div>
+                    </div>
+                    <div class="bar"></div>
+                    <div class="middletext">
+                        <div class="midtextarea">
+                            <p>
+                                epub방식을 채택한  e북형식 교재입니다.<br>
+                                경상대학교 LMS에서 제공하는 프로그램으로<br>
+                                모바일기기, PC에서 책을 읽듯이 학습이 가능합니다.<br>
+                                epub 전용 제작 프로그램 자체기능 중 지원하지 않는<br>
+                                (확대, 팝업) 은 jquery 언어를 사용하여 추가했습니다.                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Configuration">
+                        <div class="con1 clearFix">
+                            <div><p>기여도</p></div>
+                            <span>★ ★ ★ ★ ☆</span>
+                        </div>
+                        <div class="con2 clearFix">
+                            <div><p>참여인원</p></div>
+                            <span>4명</span>
+                        </div>
+                        <div class="con3 clearFix">
+                            <div><p>담당업무</p></div>
+                            <span>프로토타입 개발 및 양산</span>
+                        </div>
+                        <div class="con4 clearFix">
+                            <div><p>진행기간</p></div>
+                            <span>3개월</span>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="front">
+                        <div class="hyperlink clearFix">
+                            <a href=""><p>NONE</p></a>
+                        </div>
+                    <div class="Capture">
+                        <div class="CaptureImg">
+                            <img src="images/Capture4.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div id="background2">
+            <div id="Box">
+                <div class="aboutBox">
+                    <div class="atitle">
+                        <h2>About</h2>
+                    </div>
+                    <div class="box4">
+                        <div class="gridbox">
+                            <div class="grid grid1">
+                                <div class="profile">
+                                    <h3>profile</h3>
+                                    <div class="grid1contents">
+                                        <ul>
+                                            <li>정지환</li>
+                                            <li>인천 서구</li>
+                                            <li>1996.11.29</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid grid2">
+                                <div class="education">
+                                    <h3>education</h3>
+                                    <div class="grid2contents">
+                                        <ul>
+                                            <li>멀티미디어학 졸업</li>
+                                            <li><br>TIS정보기술교육센터<br>(2021)</li>
+                                            <li><br>미림미디어랩<br>(2022.06 ~ 2023.09)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid grid3">
+                                <div class="license">
+                                    <h3>license</h3>
+                                    <div class="grid3contents">
+                                        <ul>
+                                            <li>정보처리산업기사</li>
+                                            <li>웹디자인기능사</li>
+                                            <li>컴퓨터그래픽스기능사</li>
+                                            <li>사무자동화산업기사</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid grid4">
+                                <div class="ability">
+                                    <h3>ability</h3>
+                                    <div class="grid4contents">
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS / SCSS</li>
+                                            <li>Javascript</li>
+                                            <li>Jquery</li>
+                                            <li>Adobe Ps, Ai, Lrc</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript" src="js/examples.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/style.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        // sectionsColor: ['#fff', '#fff', '#7BAABE', 'whitesmoke', '#ccddff'],
+        anchors: ['1Page', '2Page', '3Page', '4Page'],
+        navigation:true,
+        navigationTooltips: ['HOME', 'WORK', 'CAREER' , 'ABOUT'],
+        showActiveTooltip: true,
+        menu: '#menu'
+    });
+</script>
+</body>
+</html>

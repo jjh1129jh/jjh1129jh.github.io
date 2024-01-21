@@ -1,0 +1,3132 @@
+#section0 #background0 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section0 #background0 .intro {
+  width: 960px;
+  font-family: "Noto Sans KR", sans-serif;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 100px;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+}
+#section0 #background0 .intro h1 {
+  color: rgb(87, 87, 87);
+  font-weight: 300;
+}
+#section0 #background0 .intro h1 strong {
+  font-weight: 500;
+}
+#section0 #background0 .intro h1 span {
+  color: #fff;
+  padding: 0 2%;
+  border-radius: 20px;
+  white-space: nowrap;
+  background-color: rgb(223, 180, 117);
+  font-weight: 500;
+}
+
+#section1 #slide1 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section1 #slide1 .backgroundBox1 {
+  background-image: url(../images/bg.png);
+  background-color: #9c1621;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.288);
+  width: 36%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .title h2 {
+  position: absolute;
+  left: 30px;
+  top: 37px;
+  font-size: 120px;
+  color: #ea0a2a;
+  font-family: "Gmarket Sans", sans-serif;
+  font-weight: 200;
+  margin-right: 16px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .title > div p {
+  position: absolute;
+  left: 123px;
+  top: 45px;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .title > div h3 {
+  position: absolute;
+  left: 120px;
+  top: 72px;
+  font-size: 65px;
+  color: #ea0a2a;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -2px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .information {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div {
+  float: left;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div div {
+  background-color: #ea0a2a;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .bar {
+  position: absolute;
+  left: 30px;
+  top: 235px;
+  width: 60px;
+  height: 2px;
+  background-color: #ea0a2a;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext {
+  width: 480px;
+  height: 262px;
+  position: absolute;
+  left: 30px;
+  top: 238px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext div p > span {
+  color: #ea0a2a;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .color {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .color .maincolor li {
+  float: left;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .color .maincolor li span {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 45px;
+  font-size: 9px;
+  color: rgb(221, 221, 221);
+  font-weight: 100;
+  letter-spacing: 0.3px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .color .maincolor .c1 {
+  background-color: #ea0a2a;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .color .maincolor .c2 {
+  background-color: #9a1e29;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .color .maincolor .c3 {
+  background-color: #ff7800;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration {
+  position: absolute;
+  top: 560px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 {
+  margin-top: 3%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div {
+  background-color: #ea0a2a;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div {
+  background-color: #ea0a2a;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 {
+  margin-top: 8%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 ul li {
+  float: left;
+  width: 50px;
+  margin-right: 14px;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 ul li img {
+  width: 85%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 ul li .firefox {
+  width: 97%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front {
+  position: absolute;
+  width: 56%;
+  height: 70%;
+  right: 2.4%;
+  top: 50%;
+  -webkit-transform: translateY(-56%);
+          transform: translateY(-56%);
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .clickevent {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .clickevent h3 {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .clickevent img {
+  width: 60%;
+  -webkit-animation: up-down 0.6s infinite;
+          animation: up-down 0.6s infinite;
+  animation-direction: alternate-reverse;
+}
+@-webkit-keyframes up-down {
+  from {
+    -webkit-transform: translatey(7px);
+            transform: translatey(7px);
+  }
+  to {
+    -webkit-transform: translatey(14px);
+            transform: translatey(14px);
+  }
+}
+@keyframes up-down {
+  from {
+    -webkit-transform: translatey(7px);
+            transform: translatey(7px);
+  }
+  to {
+    -webkit-transform: translatey(14px);
+            transform: translatey(14px);
+  }
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .PC {
+  position: absolute;
+  width: 67%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  z-index: 1100;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .PC img {
+  width: 100%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .PC .Pscreen {
+  position: absolute;
+  left: 3.5%;
+  top: 4.5%;
+  width: 93%;
+  height: 62.5%;
+  overflow: hidden;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .PC .Pscreen .Pscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .PC .Pscreen .Pscreensc > img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .IPAD {
+  position: absolute;
+  width: 28%;
+  bottom: 0;
+  z-index: 1102;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .IPAD img {
+  width: 100%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .IPAD .Iscreen {
+  position: absolute;
+  left: 4.5%;
+  top: 8%;
+  width: 90.4%;
+  height: 84%;
+  overflow: hidden;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .IPAD .Iscreen .Iscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .IPAD .Iscreen .Iscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .MOBILE {
+  position: absolute;
+  width: 18%;
+  right: 0;
+  bottom: 0;
+  z-index: 1103;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .MOBILE img {
+  width: 100%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .MOBILE .Mscreen {
+  position: absolute;
+  left: 6.3%;
+  top: 2.8%;
+  width: 88%;
+  height: 94%;
+  overflow: hidden;
+  border-radius: 6%;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .MOBILE .Mscreen .Mscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide1 .backgroundBox1 .backarea1 .front .media .MOBILE .Mscreen .Mscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide2 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section1 #slide2 .backgroundBox2 {
+  background-image: url(../images/bg.png);
+  background-color: #576954;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.288);
+  width: 36%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .title h2 {
+  position: absolute;
+  left: 30px;
+  top: 37px;
+  font-size: 120px;
+  color: #d19d65;
+  font-family: "Gmarket Sans", sans-serif;
+  font-weight: 200;
+  margin-right: 16px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .title > div p {
+  position: absolute;
+  left: 130px;
+  top: 45px;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .title > div h3 {
+  position: absolute;
+  left: 120px;
+  top: 72px;
+  font-size: 65px;
+  color: #d19d65;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -8px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .information {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .information > div {
+  float: left;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .information > div div {
+  background-color: #d19d65;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .bar {
+  position: absolute;
+  left: 30px;
+  top: 235px;
+  width: 60px;
+  height: 2px;
+  background-color: #d19d65;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .middletext {
+  width: 480px;
+  height: 262px;
+  position: absolute;
+  left: 30px;
+  top: 238px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .middletext div p > span {
+  color: #d19d65;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .color {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .color .maincolor li {
+  float: left;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .color .maincolor li span {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 45px;
+  font-size: 9px;
+  color: rgb(221, 221, 221);
+  font-weight: 100;
+  letter-spacing: 0.3px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .color .maincolor .c1 {
+  background-color: #fcfcfc;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .color .maincolor .c2 {
+  background-color: #d19d65;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration {
+  position: absolute;
+  top: 560px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con1 {
+  margin-top: 3%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con1 div {
+  background-color: #d19d65;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con2 div {
+  background-color: #d19d65;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con3 {
+  margin-top: 8%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con3 p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con3 ul li {
+  float: left;
+  width: 50px;
+  margin-right: 14px;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con3 ul li img {
+  width: 85%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .explanation2 .Configuration .con3 ul li .firefox {
+  width: 97%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front {
+  position: absolute;
+  width: 56%;
+  height: 70%;
+  right: 2.4%;
+  top: 50%;
+  -webkit-transform: translateY(-56%);
+          transform: translateY(-56%);
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .clickevent {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .clickevent h3 {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .clickevent img {
+  width: 60%;
+  -webkit-animation: up-down 0.6s infinite;
+          animation: up-down 0.6s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes up-down {
+  from {
+    -webkit-transform: translatey(7px);
+            transform: translatey(7px);
+  }
+  to {
+    -webkit-transform: translatey(14px);
+            transform: translatey(14px);
+  }
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .PC {
+  position: absolute;
+  width: 67%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  z-index: 1100;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .PC img {
+  width: 100%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .PC .Pscreen {
+  position: absolute;
+  left: 3.5%;
+  top: 4.5%;
+  width: 93%;
+  height: 62.5%;
+  overflow: hidden;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .PC .Pscreen .Pscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .PC .Pscreen .Pscreensc > img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .IPAD {
+  position: absolute;
+  width: 28%;
+  bottom: 0;
+  z-index: 1102;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .IPAD img {
+  width: 100%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .IPAD .Iscreen {
+  position: absolute;
+  left: 4.5%;
+  top: 8%;
+  width: 90.4%;
+  height: 84%;
+  overflow: hidden;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .IPAD .Iscreen .Iscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .IPAD .Iscreen .Iscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .MOBILE {
+  position: absolute;
+  width: 18%;
+  right: 0;
+  bottom: 0;
+  z-index: 1103;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .MOBILE img {
+  width: 100%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .MOBILE .Mscreen {
+  position: absolute;
+  left: 6.3%;
+  top: 2.8%;
+  width: 88%;
+  height: 94%;
+  overflow: hidden;
+  border-radius: 6%;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .MOBILE .Mscreen .Mscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide2 .backgroundBox2 .backarea2 .front .media .MOBILE .Mscreen .Mscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide3 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section1 #slide3 .backgroundBox3 {
+  background-image: url(../images/bg.png);
+  background-color: #353535;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.288);
+  width: 36%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .title h2 {
+  position: absolute;
+  left: 30px;
+  top: 37px;
+  font-size: 120px;
+  color: #d19d65;
+  font-family: "Gmarket Sans", sans-serif;
+  font-weight: 200;
+  margin-right: 16px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .title > div p {
+  position: absolute;
+  left: 123px;
+  top: 45px;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .title > div h3 {
+  position: absolute;
+  left: 120px;
+  top: 72px;
+  font-size: 65px;
+  color: #d19d65;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -2px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .information {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .information > div {
+  float: left;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .information > div div {
+  background-color: #ffe600;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .bar {
+  position: absolute;
+  left: 30px;
+  top: 235px;
+  width: 60px;
+  height: 2px;
+  background-color: #ffe600;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .middletext {
+  width: 480px;
+  height: 262px;
+  position: absolute;
+  left: 30px;
+  top: 238px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .middletext div p > span {
+  color: #ffe600;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .color {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .color .maincolor li {
+  float: left;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .color .maincolor li span {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 45px;
+  font-size: 9px;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 0.3px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .color .maincolor .c1 {
+  background-color: #ffe600;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .color .maincolor .c2 {
+  background-color: #000000;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .color .maincolor .c3 {
+  background-color: #f3f3f3;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration {
+  position: absolute;
+  top: 560px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con1 {
+  margin-top: 3%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con1 div {
+  background-color: #ffe600;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con2 div {
+  background-color: #ffe600;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con3 {
+  margin-top: 8%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con3 p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con3 ul li {
+  float: left;
+  width: 50px;
+  margin-right: 14px;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con3 ul li img {
+  width: 85%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .explanation3 .Configuration .con3 ul li .firefox {
+  width: 97%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front {
+  position: absolute;
+  width: 56%;
+  height: 70%;
+  right: 2.4%;
+  top: 50%;
+  -webkit-transform: translateY(-56%);
+          transform: translateY(-56%);
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .clickevent {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .clickevent h3 {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .clickevent img {
+  width: 60%;
+  -webkit-animation: up-down 0.6s infinite;
+          animation: up-down 0.6s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes up-down {
+  from {
+    -webkit-transform: translatey(7px);
+            transform: translatey(7px);
+  }
+  to {
+    -webkit-transform: translatey(14px);
+            transform: translatey(14px);
+  }
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .PC {
+  position: absolute;
+  width: 67%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  z-index: 1100;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .PC img {
+  width: 100%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .PC .Pscreen {
+  position: absolute;
+  left: 3.5%;
+  top: 4.5%;
+  width: 93%;
+  height: 62.5%;
+  overflow: hidden;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .PC .Pscreen .Pscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .PC .Pscreen .Pscreensc > img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .IPAD {
+  position: absolute;
+  width: 28%;
+  bottom: 0;
+  z-index: 1102;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .IPAD img {
+  width: 100%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .IPAD .Iscreen {
+  position: absolute;
+  left: 4.5%;
+  top: 8%;
+  width: 90.4%;
+  height: 84%;
+  overflow: hidden;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .IPAD .Iscreen .Iscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .IPAD .Iscreen .Iscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .MOBILE {
+  position: absolute;
+  width: 18%;
+  right: 0;
+  bottom: 0;
+  z-index: 1103;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .MOBILE img {
+  width: 100%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .MOBILE .Mscreen {
+  position: absolute;
+  left: 6.3%;
+  top: 2.8%;
+  width: 88%;
+  height: 94%;
+  overflow: hidden;
+  border-radius: 6%;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .MOBILE .Mscreen .Mscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide3 .backgroundBox3 .backarea3 .front .media .MOBILE .Mscreen .Mscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide4 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section1 #slide4 .backgroundBox4 {
+  background-image: url(../images/bg.png);
+  background-color: #131538;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.288);
+  width: 36%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .title h2 {
+  position: absolute;
+  left: 30px;
+  top: 37px;
+  font-size: 120px;
+  color: #4e668b;
+  font-family: "Gmarket Sans", sans-serif;
+  font-weight: 200;
+  margin-right: 16px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .title > div p {
+  position: absolute;
+  left: 130px;
+  top: 45px;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .title > div h3 {
+  position: absolute;
+  left: 120px;
+  top: 72px;
+  font-size: 65px;
+  color: #4e668b;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -8px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .information {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .information > div {
+  float: left;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .information > div div {
+  background-color: #1b3052;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .bar {
+  position: absolute;
+  left: 30px;
+  top: 235px;
+  width: 60px;
+  height: 2px;
+  background-color: #1b3052;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .middletext {
+  width: 480px;
+  height: 262px;
+  position: absolute;
+  left: 30px;
+  top: 238px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .middletext div p > span {
+  color: #4e668b;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .color {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .color .maincolor li {
+  float: left;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .color .maincolor li span {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 45px;
+  font-size: 9px;
+  color: fff;
+  font-weight: 100;
+  letter-spacing: 0.3px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .color .maincolor .c1 {
+  background-color: #1b3052;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .color .maincolor .c2 {
+  background-color: #303030;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration {
+  position: absolute;
+  top: 560px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con1 {
+  margin-top: 3%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con1 div {
+  background-color: #1b3052;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con2 div {
+  background-color: #1b3052;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con3 {
+  margin-top: 8%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con3 p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con3 ul li {
+  float: left;
+  width: 50px;
+  margin-right: 14px;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con3 ul li img {
+  width: 85%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .explanation4 .Configuration .con3 ul li .firefox {
+  width: 97%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front {
+  position: absolute;
+  width: 56%;
+  height: 70%;
+  right: 2.4%;
+  top: 50%;
+  -webkit-transform: translateY(-56%);
+          transform: translateY(-56%);
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .clickevent {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .clickevent h3 {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .clickevent img {
+  width: 60%;
+  -webkit-animation: up-down 0.6s infinite;
+          animation: up-down 0.6s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes up-down {
+  from {
+    -webkit-transform: translatey(7px);
+            transform: translatey(7px);
+  }
+  to {
+    -webkit-transform: translatey(14px);
+            transform: translatey(14px);
+  }
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .PC {
+  position: absolute;
+  width: 67%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  z-index: 1100;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .PC img {
+  width: 100%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .PC .Pscreen {
+  position: absolute;
+  left: 3.5%;
+  top: 4.5%;
+  width: 93%;
+  height: 62.5%;
+  overflow: hidden;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .PC .Pscreen .Pscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .PC .Pscreen .Pscreensc > img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .IPAD {
+  position: absolute;
+  width: 28%;
+  bottom: 0;
+  z-index: 1102;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .IPAD img {
+  width: 100%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .IPAD .Iscreen {
+  position: absolute;
+  left: 4.5%;
+  top: 8%;
+  width: 90.4%;
+  height: 84%;
+  overflow: hidden;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .IPAD .Iscreen .Iscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .IPAD .Iscreen .Iscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .MOBILE {
+  position: absolute;
+  width: 18%;
+  right: 0;
+  bottom: 0;
+  z-index: 1103;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .MOBILE img {
+  width: 100%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .MOBILE .Mscreen {
+  position: absolute;
+  left: 6.3%;
+  top: 2.8%;
+  width: 88%;
+  height: 94%;
+  overflow: hidden;
+  border-radius: 6%;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .MOBILE .Mscreen .Mscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide4 .backgroundBox4 .backarea4 .front .media .MOBILE .Mscreen .Mscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide5 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section1 #slide5 .backgroundBox5 {
+  background-image: url(../images/bg.png);
+  background-color: #adadad;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.288);
+  width: 36%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .title h2 {
+  position: absolute;
+  left: 30px;
+  top: 37px;
+  font-size: 120px;
+  color: #272727;
+  font-family: "Gmarket Sans", sans-serif;
+  font-weight: 200;
+  margin-right: 16px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .title > div p {
+  position: absolute;
+  left: 130px;
+  top: 45px;
+  font-size: 15px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .title > div h3 {
+  position: absolute;
+  left: 120px;
+  top: 72px;
+  font-size: 65px;
+  color: #272727;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -8px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .information {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .information > div {
+  float: left;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .information > div div {
+  background-color: #303030;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .bar {
+  position: absolute;
+  left: 30px;
+  top: 215px;
+  width: 60px;
+  height: 2px;
+  background-color: #303030;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .middletext {
+  width: 480px;
+  height: 262px;
+  position: absolute;
+  left: 30px;
+  top: 238px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .middletext div p > span {
+  color: #4e668b;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .color {
+  position: absolute;
+  top: 500px;
+  left: 30px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .color .maincolor li {
+  float: left;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .color .maincolor li span {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 45px;
+  font-size: 9px;
+  color: rgb(221, 221, 221);
+  font-weight: 100;
+  letter-spacing: 0.3px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .color .maincolor .c1 {
+  background-color: #1b3052;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .color .maincolor .c2 {
+  background-color: #303030;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration {
+  position: absolute;
+  top: 560px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con1 {
+  margin-top: 3%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con1 div {
+  background-color: #303030;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con2 div {
+  background-color: #303030;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con3 {
+  margin-top: 8%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con3 p {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 15px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con3 ul li {
+  float: left;
+  width: 50px;
+  margin-right: 14px;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con3 ul li img {
+  width: 85%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .explanation5 .Configuration .con3 ul li .firefox {
+  width: 97%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front {
+  position: absolute;
+  width: 56%;
+  height: 70%;
+  right: 2.4%;
+  top: 50%;
+  -webkit-transform: translateY(-56%);
+          transform: translateY(-56%);
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .clickevent {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .clickevent h3 {
+  font-size: 22px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #fff;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .clickevent img {
+  width: 60%;
+  -webkit-animation: up-down 0.6s infinite;
+          animation: up-down 0.6s infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes up-down {
+  from {
+    -webkit-transform: translatey(7px);
+            transform: translatey(7px);
+  }
+  to {
+    -webkit-transform: translatey(14px);
+            transform: translatey(14px);
+  }
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .PC {
+  position: absolute;
+  width: 67%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  z-index: 1100;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .PC img {
+  width: 100%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .PC .Pscreen {
+  position: absolute;
+  left: 3.5%;
+  top: 4.5%;
+  width: 93%;
+  height: 62.5%;
+  overflow: hidden;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .PC .Pscreen .Pscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .PC .Pscreen .Pscreensc > img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .IPAD {
+  position: absolute;
+  width: 28%;
+  bottom: 0;
+  z-index: 1102;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .IPAD img {
+  width: 100%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .IPAD .Iscreen {
+  position: absolute;
+  left: 4.5%;
+  top: 8%;
+  width: 90.4%;
+  height: 84%;
+  overflow: hidden;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .IPAD .Iscreen .Iscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .IPAD .Iscreen .Iscreensc img {
+  position: absolute;
+  left: 0;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .MOBILE {
+  position: absolute;
+  width: 18%;
+  right: 0;
+  bottom: 0;
+  z-index: 1103;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .MOBILE img {
+  width: 100%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .MOBILE .Mscreen {
+  position: absolute;
+  left: 6.3%;
+  top: 2.8%;
+  width: 88%;
+  height: 94%;
+  overflow: hidden;
+  border-radius: 6%;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .MOBILE .Mscreen .Mscreensc {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section1 #slide5 .backgroundBox5 .backarea5 .front .media .MOBILE .Mscreen .Mscreensc img {
+  position: absolute;
+  left: 0;
+}
+
+#section2 #slide1 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section2 #slide1 .backgroundBox1 {
+  background-image: url(../images/bg.png);
+  background-color: #627fa0;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 {
+  position: absolute;
+  left: 1.5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 32%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .title > div p {
+  position: absolute;
+  left: 33px;
+  top: 50px;
+  font-size: 15px;
+  color: #e7e7e7;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .title > div h3 {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -2px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .information {
+  position: absolute;
+  top: 145px;
+  left: 30px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div {
+  float: left;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div div {
+  background-color: #64a9fb;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .bar {
+  position: absolute;
+  left: 30px;
+  top: 215px;
+  width: 60px;
+  height: 2px;
+  background-color: #64a9fb;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext {
+  width: 418px;
+  height: 320px;
+  position: absolute;
+  left: 30px;
+  top: 218px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .middletext div p > span {
+  color: #64a9fb;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 {
+  margin-top: 4%;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div {
+  background-color: #64a9fb;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div {
+  background-color: #64a9fb;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 {
+  margin-top: 4%;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div {
+  background-color: #64a9fb;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 {
+  margin-top: 4%;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div {
+  background-color: #64a9fb;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front {
+  position: absolute;
+  width: 940px;
+  height: 670px;
+  right: 3.5%;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front .hyperlink {
+  position: absolute;
+  bottom: 28px;
+  right: 45px;
+  z-index: 1000;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front .hyperlink a {
+  width: 80px;
+  height: 40px;
+  background-color: #9ac7ff;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 12px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front .hyperlink a p {
+  letter-spacing: 0.3px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front .hyperlink > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front .Capture {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front .Capture .CaptureImg {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1100;
+}
+#section2 #slide1 .backgroundBox1 .backarea1 .front .Capture .CaptureImg img {
+  width: 100%;
+}
+#section2 #slide2 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section2 #slide2 .backgroundBox1 {
+  background-image: url(../images/bg.png);
+  background-color: #afa496;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 {
+  position: absolute;
+  left: 1.5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 32%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .title > div p {
+  position: absolute;
+  left: 33px;
+  top: 50px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .title > div h3 {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -2px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .information {
+  position: absolute;
+  top: 145px;
+  left: 30px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .information > div {
+  float: left;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .information > div div {
+  background-color: #6f4620;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .information > div > span {
+  color: #fff;
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .bar {
+  position: absolute;
+  left: 30px;
+  top: 215px;
+  width: 60px;
+  height: 2px;
+  background-color: #6f4620;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .middletext {
+  width: 418px;
+  height: 320px;
+  position: absolute;
+  left: 30px;
+  top: 218px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+  color: #fff;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .middletext div p > span {
+  color: #6f4620;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 {
+  margin-top: 4%;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div {
+  background-color: #6f4620;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #fff;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div {
+  background-color: #6f4620;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #fff;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 {
+  margin-top: 4%;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div {
+  background-color: #6f4620;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #fff;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 {
+  margin-top: 4%;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div {
+  background-color: #6f4620;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  color: #fff;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front {
+  position: absolute;
+  width: 940px;
+  height: 670px;
+  right: 3.5%;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front .hyperlink {
+  position: absolute;
+  bottom: 14px;
+  right: 45px;
+  z-index: 1000;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front .hyperlink a {
+  width: 80px;
+  height: 40px;
+  background-color: #303030;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 12px;
+  pointer-events: none;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front .hyperlink a p {
+  letter-spacing: 0.3px;
+  font-size: 13px;
+  color: #a0a0a0;
+  font-weight: 500;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front .hyperlink > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front .Capture {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front .Capture .CaptureImg {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1100;
+}
+#section2 #slide2 .backgroundBox1 .backarea1 .front .Capture .CaptureImg img {
+  width: 100%;
+}
+#section2 #slide3 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section2 #slide3 .backgroundBox1 {
+  background-image: url(../images/bg.png);
+  background-color: #7f9ec0;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 {
+  position: absolute;
+  left: 1.5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 32%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .title > div p {
+  position: absolute;
+  left: 33px;
+  top: 50px;
+  font-size: 15px;
+  color: #e7e7e7;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .title > div h3 {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -2px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .information {
+  position: absolute;
+  top: 145px;
+  left: 30px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .information > div {
+  float: left;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .information > div div {
+  background-color: #a5cae7;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .bar {
+  position: absolute;
+  left: 30px;
+  top: 215px;
+  width: 60px;
+  height: 2px;
+  background-color: #a5cae7;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .middletext {
+  width: 418px;
+  height: 320px;
+  position: absolute;
+  left: 30px;
+  top: 218px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .middletext div p > span {
+  color: #2664af;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 {
+  margin-top: 4%;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div {
+  background-color: #a5cae7;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div {
+  background-color: #a5cae7;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 {
+  margin-top: 4%;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div {
+  background-color: #a5cae7;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 {
+  margin-top: 4%;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div {
+  background-color: #a5cae7;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front {
+  position: absolute;
+  width: 940px;
+  height: 670px;
+  right: 3.5%;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front .hyperlink {
+  position: absolute;
+  bottom: 28px;
+  right: 45px;
+  z-index: 1000;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front .hyperlink a {
+  width: 80px;
+  height: 40px;
+  background-color: #303030;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 12px;
+  pointer-events: none;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front .hyperlink a p {
+  letter-spacing: 0.3px;
+  font-size: 13px;
+  color: #a0a0a0;
+  font-weight: 500;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front .hyperlink > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front .Capture {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front .Capture .CaptureImg {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1100;
+}
+#section2 #slide3 .backgroundBox1 .backarea1 .front .Capture .CaptureImg img {
+  width: 100%;
+}
+#section2 #slide4 {
+  background-image: url(../images/patton.jpg);
+  position: relative;
+}
+#section2 #slide4 .backgroundBox1 {
+  background-image: url(../images/bg.png);
+  background-color: #2e0e4d;
+  -webkit-box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+          box-shadow: 1px 1px 10px 0.1px rgb(192, 192, 192);
+  width: 1500px;
+  height: 780px;
+  z-index: 1000;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 {
+  position: absolute;
+  left: 1.5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 32%;
+  height: 95%;
+  text-align: left;
+  color: rgb(238, 238, 238);
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .title > div p {
+  position: absolute;
+  left: 33px;
+  top: 50px;
+  font-size: 15px;
+  color: #e7e7e7;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .title > div h3 {
+  position: absolute;
+  left: 30px;
+  top: 90px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+  letter-spacing: -2px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .information {
+  position: absolute;
+  top: 145px;
+  left: 30px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .information > div {
+  float: left;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .information > div div {
+  background-color: #82659e;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Noto Sans KR", sans-serif;
+  letter-spacing: 0.3px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .information > div div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .information > div > span {
+  letter-spacing: 0.3px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .bar {
+  position: absolute;
+  left: 30px;
+  top: 215px;
+  width: 60px;
+  height: 2px;
+  background-color: #82659e;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .middletext {
+  width: 418px;
+  height: 320px;
+  position: absolute;
+  left: 30px;
+  top: 218px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .middletext div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .middletext div p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -1px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .middletext div p > span {
+  color: #b08fcf;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration {
+  position: absolute;
+  top: 530px;
+  left: 30px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 {
+  margin-top: 4%;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div {
+  background-color: #82659e;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 div p {
+  padding: 4px 8px 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con1 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 {
+  margin-top: 4%;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div {
+  background-color: #82659e;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con2 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 {
+  margin-top: 4%;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div {
+  background-color: #82659e;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con3 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 {
+  margin-top: 4%;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div {
+  background-color: #82659e;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  line-height: 24px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 div p {
+  padding: 4px 8px 6px 8px;
+  letter-spacing: 0.3px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .explanation1 .Configuration .con4 > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front {
+  position: absolute;
+  width: 940px;
+  height: 670px;
+  right: 3.5%;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.12);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front .hyperlink {
+  position: absolute;
+  bottom: 28px;
+  right: 45px;
+  z-index: 1000;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front .hyperlink a {
+  width: 80px;
+  height: 40px;
+  background-color: #303030;
+  border-radius: 10px;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 12px;
+  pointer-events: none;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front .hyperlink a p {
+  letter-spacing: 0.3px;
+  font-size: 13px;
+  color: #a0a0a0;
+  font-weight: 500;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front .hyperlink > span {
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front .Capture {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front .Capture .CaptureImg {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1100;
+}
+#section2 #slide4 .backgroundBox1 .backarea1 .front .Capture .CaptureImg img {
+  width: 100%;
+}
+
+#section3 #background2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/bg.png);
+  background-color: rgb(211, 192, 164);
+  position: relative;
+  font-family: "sc", sans-serif;
+}
+#section3 #background2 #Box {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 1280px;
+  height: 1150px;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6980392157);
+}
+#section3 #background2 #Box .aboutBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#section3 #background2 #Box .aboutBox .atitle h2 {
+  text-align: left;
+  font-size: 76px;
+  font-weight: bolder;
+  color: #fff;
+  position: relative;
+  padding: 3% 0% 0% 4%;
+}
+#section3 #background2 #Box .aboutBox .atitle h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  background: #fff;
+  left: 27%;
+  top: 76%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#section3 #background2 #Box .aboutBox .box4 {
+  position: absolute;
+  width: 56%;
+  height: 96%;
+  right: -26%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid {
+  width: 50%;
+  position: relative;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div {
+  height: 97%;
+  margin: 3% 3%;
+  background-color: rgba(0, 0, 0, 0.431372549);
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div h3 {
+  text-transform: uppercase;
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 7%;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div h3::before {
+  position: absolute;
+  left: 20%;
+  top: 80%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 12%;
+  height: 1px;
+  background: #fff;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div h3::after {
+  position: absolute;
+  right: 20%;
+  top: 80%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: "";
+  display: block;
+  width: 12%;
+  height: 1px;
+  background: #fff;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid1contents {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid1contents ul {
+  text-align: center;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid1contents ul li {
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  white-space: nowrap;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid2contents {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid2contents ul {
+  text-align: center;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid2contents ul li {
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  white-space: nowrap;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid3contents {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid3contents ul {
+  text-align: center;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid3contents ul li {
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  white-space: nowrap;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid4contents {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid4contents ul {
+  text-align: center;
+}
+#section3 #background2 #Box .aboutBox .box4 .gridbox .grid > div .grid4contents ul li {
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.home {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  z-index: 1001;
+}
+.home img {
+  display: block;
+  width: 100%;
+  opacity: 0.93;
+}
