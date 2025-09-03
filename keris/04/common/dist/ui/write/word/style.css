@@ -1,7 +1,0 @@
-@import "../../../common/common.css";
-@import "../../../../css/font.css";
-
-.canvas-wrapper {
-  margin: 0;
-}
-#example-image-wrapper{z-index: -999;}
