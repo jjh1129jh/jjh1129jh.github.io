@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>쓰기: 받아쓰기</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script type="module" src="service.js"></script>
+</head>
+<body>
+<div id="container">
+  <section>
+    <div class="button-wrapper flex-end">
+      <button class="cylinder-button" onclick="location.href='../../home.html'">홈으로</button>
+      <button id="close-window" class="cylinder-button">닫기</button>
+    </div>
+    <div class="flex-center flex-direction-column">
+      <div id="question-wrapper" class="flex-center flex-direction-column">
+        <h2 class="narration">원어민 음성을 듣고 따라 써 보세요.</h2>
+        <select id="play-speed" class="disp-none">
+          <option value="normal" selected>음성 속도 기본</option>
+          <option value="slow">음성 천천히</option>
+          <option value="fast">음성 빠르게</option>
+        </select>
+        <div class="flex-center flex-direction-column audio-button-wrapper">
+          <div class="cylinder-button emphasize-box"></div>
+          <button class="play-button round-button audio-large-button speaker-button"></button>
+        </div>
+        <h4>버튼을 누르면 재생됩니다.</h4>
+      </div>
+      <div id="result-wrapper" class="flex-center flex-direction-column disp-none">
+        <h2 id="script" class="narration"></h2>
+        <div class="flex-center flex-direction-column audio-button-wrapper">
+          <div class="cylinder-button emphasize-box"></div>
+          <button class="play-button round-button audio-large-button speaker-button"></button>
+        </div>
+        <h4>버튼을 누르면 재생됩니다.</h4>
+        <div id="score-wrapper">
+          <div>
+            <span>필기 유창성 점수: </span><span id="fluency-score"></span>
+          </div>
+        </div>
+        <h2 id="ocr-result-text"></h2>
+      </div>
+      <div id="result-error-wrapper" class="flex-center flex-direction-column disp-none">
+        <div class="flex-center flex-direction-column audio-button-wrapper">
+          <div class="cylinder-button emphasize-box"></div>
+          <button class="play-button round-button audio-large-button speaker-button"></button>
+        </div>
+        <h4>버튼을 누르면 재생됩니다.</h4>
+        <h2 id="error-message"></h2>
+      </div>
+    </div>
+    <div id="answer-wrapper"></div>
+    <div class="flex-end">
+      <button id="done" class="cylinder-button">결과 보기</button>
+      <button id="retry" class="cylinder-button disp-none">다시 하기</button>
+    </div>
+  </section>
+  <div id="copy-canvas-wrapper"></div>
+</div>
+</body>
+</html>
