@@ -236,7 +236,7 @@ let allDataObj2 = [
         participants : '18명 +',
         responsibilities : '프로토타입 개발 및 양산',
         images : '/img/PROJECT/Capture4.png', 
-        weblink : ['/public/keris/01/01.html','/public/keris/02/01.html','/public/keris/03/01.html','/public/keris/04/01.html'],
+        weblink : ['/keris/01/01.html','/keris/02/01.html','/keris/03/01.html','/keris/04/01.html'],
         linktype : 'W',
         bgcolor : '#627fa0',
         objcolor : '#64a9fb'
